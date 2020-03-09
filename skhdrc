@@ -14,6 +14,10 @@ alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 
+# Workspaces
+lctrl + alt - n: yabai -m space --create
+lctrl + alt - k: yabai -m space --destroy
+
 # Moving windows
 shift + alt - h : yabai -m window --warp west
 shift + alt - j : yabai -m window --warp south
