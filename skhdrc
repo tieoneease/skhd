@@ -1,5 +1,6 @@
 # opens alacritty
 alt - return : open -na /Applications/Alacritty.app
+alt - b : open /Applications/Google\ Chrome.app --new --args --new-window
 
 # Show system statistics
 #fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
