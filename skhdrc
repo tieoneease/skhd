@@ -1,12 +1,12 @@
-# opens iTerm2
-alt - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
+# opens alacritty
+alt - return : open -na /Applications/Alacritty.app
 
 # Show system statistics
-fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
-fn + lalt - 2 : "${HOME}"/.config/yabai/scripts/show_mem.sh
-fn + lalt - 3 : "${HOME}"/.config/yabai/scripts/show_bat.sh
-fn + lalt - 4 : "${HOME}"/.config/yabai/scripts/show_disk.sh
-fn + lalt - 5 : "${HOME}"/.config/yabai/scripts/show_song.sh
+#fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
+#fn + lalt - 2 : "${HOME}"/.config/yabai/scripts/show_mem.sh
+#fn + lalt - 3 : "${HOME}"/.config/yabai/scripts/show_bat.sh
+#fn + lalt - 4 : "${HOME}"/.config/yabai/scripts/show_disk.sh
+#fn + lalt - 5 : "${HOME}"/.config/yabai/scripts/show_song.sh
 
 # Navigation
 alt - h : yabai -m window --focus west
