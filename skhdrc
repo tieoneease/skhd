@@ -1,5 +1,5 @@
 # opens alacritty
-alt - return : open -na /Applications/Alacritty.app
+alt - return : open -na /Applications/kitty.app
 alt - b : open /Applications/Google\ Chrome.app --new --args --new-window
 
 # Show system statistics
@@ -17,7 +17,7 @@ alt - l : yabai -m window --focus east
 
 # Workspaces
 lctrl + alt - n: yabai -m space --create
-lctrl + alt - k: yabai -m space --destroy
+lctrl + alt - d: yabai -m space --destroy
 
 # Moving windows
 shift + alt - h : yabai -m window --warp west
